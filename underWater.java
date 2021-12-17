@@ -54,10 +54,7 @@ public class underWater extends World
                
         coral coral10 = new coral();
         addObject(coral10, 310, 200);
-        
-        groupBeatles group = new groupBeatles();
-        addObject(group, 55, 732);
-        
+                
         eachBeatle single = new eachBeatle();
         addObject(single, 133, 741);
     }
