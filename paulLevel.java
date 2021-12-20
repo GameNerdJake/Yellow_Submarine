@@ -1,65 +1,59 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class underWater here.
+ * Write a description of class paulLevel here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class underWater extends World
+public class paulLevel extends World
 {
 
     /**
-     * Constructor for objects of class underWater.
+     * Constructor for objects of class paulLevel.
      * 
      */
-    public underWater()
+    public paulLevel()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 800, 1); 
+        
         prepare();
     }
     
     private void prepare()
     {
         yellowSubmarine yellowSubmarine = new yellowSubmarine();
-        addObject(yellowSubmarine, 300, 120);
-        
+        addObject(yellowSubmarine, 300, 170);
+                       
         coral coral1 = new coral();
-        addObject(coral1, 75, 790);
+        addObject(coral1, 300, 790);
         
         coral coral2 = new coral();
-        addObject(coral2, 225, 790);
+        addObject(coral2, 435, 750);
         
         coral coral3 = new coral();
-        addObject(coral3, 435, 750);
+        addObject(coral3, 435, 655);
         
         coral coral4 = new coral();
-        addObject(coral4, 260, 655);
+        addObject(coral4, 230, 580);
         
         coral coral5 = new coral();
-        addObject(coral5, 75, 580);
-        
+        addObject(coral5, 430, 330);
+                
         coral coral6 = new coral();
-        addObject(coral6, 80, 480);
+        addObject(coral6, 340, 490);
         
         coral coral7 = new coral();
-        addObject(coral7, 340, 470);
-        
+        addObject(coral7, 221, 400);
+                       
         coral coral8 = new coral();
-        addObject(coral8, 525, 400);
-        
-        coral coral9 = new coral();
-        addObject(coral9, 310, 330);
-               
-        coral coral10 = new coral();
-        addObject(coral10, 310, 200);
+        addObject(coral8, 300, 250);
                 
-        Ringo Ringo = new Ringo();
-        addObject(Ringo, 133, 741);
+        Paul Paul = new Paul();
+        addObject(Paul, 300, 741);
         
         glove glove = new glove();
-        addObject(glove, 55, 270);
+        addObject(glove, 60, 350);
     }
-    
 }

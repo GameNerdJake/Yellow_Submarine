@@ -24,6 +24,7 @@ public class Ringo extends Actor
         checkFall();
         respawn();
         getHit();
+        checkChange();
     }
     
      public boolean onGround()
@@ -99,5 +100,14 @@ public class Ringo extends Actor
         }
     }
     
+    public void checkChange()
+    {
+        Actor Ringo = getOneIntersectingObject(yellowSubmarine.class);
+        if(Ringo != null)
+        {
+            Greenfoot.setWorld(new georgeLevel());
+        }
+    }
     
+      
 }

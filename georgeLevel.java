@@ -24,7 +24,7 @@ public class georgeLevel extends World
     private void prepare()
     {
         yellowSubmarine yellowSubmarine = new yellowSubmarine();
-        addObject(yellowSubmarine, 300, 120);
+        addObject(yellowSubmarine, 210, 120);
         
         coral coral1 = new coral();
         addObject(coral1, 75, 790);
@@ -36,13 +36,13 @@ public class georgeLevel extends World
         addObject(coral3, 435, 750);
         
         coral coral4 = new coral();
-        addObject(coral4, 260, 655);
+        addObject(coral4, 435, 655);
         
         coral coral5 = new coral();
-        addObject(coral5, 75, 580);
+        addObject(coral5, 230, 580);
         
         coral coral6 = new coral();
-        addObject(coral6, 80, 480);
+        addObject(coral6, 80, 500);
         
         coral coral7 = new coral();
         addObject(coral7, 340, 470);
@@ -54,12 +54,12 @@ public class georgeLevel extends World
         addObject(coral9, 310, 330);
                
         coral coral10 = new coral();
-        addObject(coral10, 310, 200);
+        addObject(coral10, 210, 200);
                 
         George George = new George();
         addObject(George, 133, 741);
         
         glove glove = new glove();
-        addObject(glove, 55, 270);
+        addObject(glove, 55, 520);
     }
 }

@@ -17,4 +17,5 @@ public class yellowSubmarine extends Actor
     {
         setImage(myGif.getCurrentImage());
     }
+    
 }

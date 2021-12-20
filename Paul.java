@@ -1,18 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class George here.
+ * Write a description of class Paul here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class George extends Actor
+public class Paul extends Actor
 {
     /**
-     * Act - do whatever the George wants to do. This method is called whenever
+     * Act - do whatever the Paul wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-
+    
     private int speed = 5;
     private int vSpeed = 0;
     private int acceleration = 1;
@@ -88,26 +88,25 @@ public class George extends Actor
     public void respawn()
     {
         if (getY() == 799){
-            setLocation(133, 700);
+            setLocation(300, 741);
             vSpeed = 0;
         }       
-    
     }
     
     public void getHit()
     {
         if(isTouching (glove.class)){
-            setLocation(133, 700);
+            setLocation(300, 741);
             vSpeed = 0;
         }
     }
     
     public void checkChange()
     {
-        Actor George = getOneIntersectingObject(yellowSubmarine.class);
-        if(George != null)
+        Actor Paul = getOneIntersectingObject(yellowSubmarine.class);
+        if(Paul != null)
         {
-            Greenfoot.setWorld(new johnLevel());
+            Greenfoot.setWorld(new endScreen());
         }
     }
 }

@@ -27,7 +27,7 @@ public class glove extends Actor
     public void reset()
     {
         if (getX() == 599){
-            setLocation(53, 270);
+            setLocation(53, getY());
         }  
     }
 }
