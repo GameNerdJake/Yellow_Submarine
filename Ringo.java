@@ -1,29 +1,29 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class eachBeatle here.
+ * Write a description of class Ringo here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class eachBeatle extends Actor
+public class Ringo extends Actor
 {
+    /**
+     * Act - do whatever the Ringo wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
     private int speed = 5;
     private int vSpeed = 0;
     private int acceleration = 1;
     private int jumpStrength = 13;
-  
-    /**
-     * Act - do whatever the eachBeatle wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+
     public void act()
     {
         checkKeys();
         onGround();
         checkFall();
         respawn();
-        changeBeatle();
+        getHit();
     }
     
      public boolean onGround()
@@ -91,14 +91,13 @@ public class eachBeatle extends Actor
         }       
     }
     
-    public void changeBeatle()
+    public void getHit()
     {
-        if (isTouching (yellowSubmarine.class)){
-            setImage("paul.png");
+        if(isTouching (glove.class)){
             setLocation(133, 700);
-                        
+            vSpeed = 0;
         }
     }
-
+    
+    
 }
-

@@ -1,22 +1,23 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class underWater here.
+ * Write a description of class georgeLevel here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class underWater extends World
+public class georgeLevel extends World
 {
 
     /**
-     * Constructor for objects of class underWater.
+     * Constructor for objects of class georgeLevel.
      * 
      */
-    public underWater()
+    public georgeLevel()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 800, 1); 
+    
         prepare();
     }
     
@@ -55,8 +56,8 @@ public class underWater extends World
         coral coral10 = new coral();
         addObject(coral10, 310, 200);
                 
-        Ringo Ringo = new Ringo();
-        addObject(Ringo, 133, 741);
+        George George = new George();
+        addObject(George, 133, 741);
         
         glove glove = new glove();
         addObject(glove, 55, 270);
