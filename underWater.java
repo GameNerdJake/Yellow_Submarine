@@ -13,10 +13,13 @@ public class underWater extends World
      * Constructor for objects of class underWater.
      * 
      */
+    
+     GreenfootSound backgroundMusic = new GreenfootSound("YellowSubmarine.wav");
     public underWater()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 800, 1); 
+        backgroundMusic.playLoop();
         prepare();
     }
     
@@ -61,5 +64,7 @@ public class underWater extends World
         glove glove = new glove();
         addObject(glove, 55, 270);
     }
+    
+    
     
 }
