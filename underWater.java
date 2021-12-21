@@ -9,12 +9,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class underWater extends World
 {
 
-    /**
-     * Constructor for objects of class underWater.
-     * 
-     */
-    
      GreenfootSound backgroundMusic = new GreenfootSound("YellowSubmarine.wav");
+     //Song credits to The Beatles. 8-Bit rendition credited to Chiptune Planet on YouTube
+     
     public underWater()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.

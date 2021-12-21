@@ -45,7 +45,7 @@ public class georgeLevel extends World
         addObject(coral6, 80, 500);
         
         coral coral7 = new coral();
-        addObject(coral7, 340, 470);
+        addObject(coral7, 330, 470);
         
         coral coral8 = new coral();
         addObject(coral8, 525, 400);

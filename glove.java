@@ -19,11 +19,17 @@ public class glove extends Actor
         reset();
     }
     
+    /**
+     * Method for moving right
+     */
     public void moveRight()
     {
         setLocation (getX() + speed, getY());
     }
     
+    /**
+     * Resets Glove when it reaches the end
+     */
     public void reset()
     {
         if (getX() == 599){

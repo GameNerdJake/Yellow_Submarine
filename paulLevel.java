@@ -37,18 +37,15 @@ public class paulLevel extends World
         
         coral coral4 = new coral();
         addObject(coral4, 230, 580);
-        
+                        
         coral coral5 = new coral();
-        addObject(coral5, 430, 330);
-                
-        coral coral6 = new coral();
-        addObject(coral6, 340, 490);
+        addObject(coral5, 340, 490);
         
-        coral coral7 = new coral();
-        addObject(coral7, 221, 400);
+        coral coral6 = new coral();
+        addObject(coral6, 221, 400);
                        
-        coral coral8 = new coral();
-        addObject(coral8, 300, 250);
+        coral coral7 = new coral();
+        addObject(coral7, 300, 250);
                 
         Paul Paul = new Paul();
         addObject(Paul, 300, 741);
